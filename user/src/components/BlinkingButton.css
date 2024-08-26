@@ -1,0 +1,13 @@
+.blink {
+    animation: blink-animation 1s infinite;
+  }
+  
+.active {
+    color: #800080;
+  }
+  @keyframes blink-animation {
+    50% {
+      opacity: 0;
+    }
+  }
+  
