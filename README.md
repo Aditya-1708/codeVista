@@ -79,14 +79,14 @@ npx nodemon codeVista.js
 cd user
 ```
 
-## Install Client Dependencies
+## Build the Docker image
 ```bash
-npm install
+docker build -t frontend .
 ```
 
-## Run the Client Server
+## Run the Docker Container
 ```bash
-npm start
+docker run -d -p 3000:3000 frontend
 ```
 # Demo
 https://youtu.be/VRMuLNjaF1c?si=AnaKj7JydMfOIsii
