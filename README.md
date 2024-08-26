@@ -76,7 +76,7 @@ npx nodemon codeVista.js
 
 ## Navigate to the Client Directory
 ```bash
-cd client
+cd user
 ```
 
 ## Install Client Dependencies
