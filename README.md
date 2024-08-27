@@ -43,11 +43,11 @@ git clone --recursive https://github.com/Aditya-1708/CodeVista.git
 3. Create your OpenAI API key.
    https://youtu.be/nafDyRsVnXU?si=mwywi2Uux6nRNAbL
 
-4. Open the env.js file in the api folder.
+4. Create a .env file in the api folder.
 
-5. Paste the API key in the openAIapikey variable.
+5. Paste the openAPI key , mongoDb connection key , secret_key in the .env file.
    
-![image](https://github.com/Aditya-1708/CodeVista/assets/122715316/9658b5c9-8bb1-4be3-8aa2-0b3193dd570f)
+![image](https://github.com/user-attachments/assets/cf2e29f2-467a-4fce-8ea1-dac393e6ee10)
 
 ## Open the Project
 ```bash
